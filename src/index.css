@@ -122,11 +122,12 @@ img {
   }
   section {
     margin-top: 6rem;
+    height: 100vh;
   }
 }
 
 /* Media Queries Small Devices */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--containter-width-sm);
   }
